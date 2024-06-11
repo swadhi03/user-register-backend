@@ -17,6 +17,7 @@ app.post("/add",(req,res)=>{
     res.json({"status":"success"})
 })
 
+
 app.get("/view",(req,res)=>{
     usermodel.find().then(
         (data)=>{
